@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Lecture 04: Environmental Policies</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Bruno Conte" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer-upf.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Lecture 04: Environmental Policies
+]
+.subtitle[
+## Environmental Economics and Climate Change<br><br><br><br><br><br><span style="color:white"> </span>
+]
+.author[
+### Bruno Conte
+]
+.date[
+### Winter 2025
+]
+
+---
+
+
+
+
+&lt;style&gt;
+r { color: rgb(200,16,46) }
+&lt;/style&gt;
+
+# Climate Change and Environmental Policy: Intro
+
+- So far, we have studied &lt;g&gt;economic causes&lt;/g&gt; of climate change
+
+  - Economic `\(\rightarrow\)` `\(\text{CO}_{2}\)` emissions `\(\rightarrow\)` climate change
+  
+  - Reasoning: the economy is not necessarily the problem, but rather that there are failures in the markets
+
+--
+
+`\(\text{ }\)`
+
+&lt;u&gt;This module:&lt;/u&gt;
+
+1. &lt;r&gt;**Do we need policies**&lt;/r&gt; to correct these failures?
+
+2. If so, which are these policies?
+
+---
+
+# Climate Change and Environmental Policy: Intro
+
+Why to discuss whether policies are needed in the first place?
+
+- &lt;u&gt;Direct intervention&lt;/u&gt;/policies:
+
+  - Can be &lt;r&gt;distortionary&lt;/r&gt;: how would them interact with other dimension of the economy?
+  
+  - Is there a way of correcting markets *without direct intervention*?
+  
+- Policies also generate benefits (e.g., tax revenues, "nudges")
+  
+  - What are the related &lt;y&gt;trade-offs&lt;/y&gt; for `\(\neq\)` policies?
+
+---
+
+# Climate Change and Environmental Policy: Intro
+
+## Roadmap
+
+1. &lt;u&gt;Theory of environmental policies&lt;/u&gt;
+
+  - Price mechanisms: Pigou
+  
+  - Private bargaining: Coase
+
+
+2. &lt;u&gt;Environmental Policies in the Real-world&lt;/u&gt;
+
+  - Pigouvian policy: `\(\text{CO}_2\)` taxes
+  
+  - Coase's cap-and-trade: EU Emissions Trading Scheme
+  
+  - Direct intervention: regulation, standards, subsidies, ...
+  
+--
+
+&lt;r&gt;Any questions?&lt;/r&gt;
+
+---
+class: inverse, center, middle
+count: false
+
+# Getting started: The Theory of
+
+# Environment Policies
+
+---
+
+# Environmental Policy: Theory
+
+.pull-left[
+&lt;u&gt;Motivation&lt;/u&gt;: a negative &lt;r&gt;production&lt;/r&gt; externality
+- `\(MD=\)` Marginal Damages (externality; intuition?)
+- `\(SMC =\)` ?
+
+]
+.pull-right[
+&lt;img src="figs/fig_pol0.png" style="width: 100%" /&gt;
+]
+
+---
+
+# Environmental Policy: Theory
+
+.pull-left[
+&lt;u&gt;Motivation&lt;/u&gt;: a negative &lt;r&gt;production&lt;/r&gt; externality
+- `\(MD=\)` Marginal Damages (externality, intuition?)
+- `\(SMC = PMC+MD\)`
+
+&lt;u&gt;Unregulated&lt;/u&gt; economy `\(\rightarrow\)` overproduces `\((Q^U &gt; Q^S)\)`
+- Prices do not reflect `\(MD\)`
+
+How to &lt;r&gt;get prices right&lt;/r&gt;?
+
+]
+.pull-right[
+&lt;img src="figs/fig_pol1.png" style="width: 100%" /&gt;
+]
+
+---
+
+# Environmental Policy: The Pigouvian Tax
+
+Arthur Cecil Pigou on "The Economics of Welfare" (1920)
+
+&gt; *Industrialists seek their own marginal private interest. When the marginal social interest diverges from theirs, there are &lt;r&gt;no incentives to internalize&lt;/r&gt; the social costs*
+
+&lt;u&gt;Example&lt;/u&gt;: industry that pollute water used later on by farmers
+
+--
+
+&lt;u&gt;Pugou's solution&lt;/u&gt;: Make factory liable for damages
+
+- Requiring it to compensate farmers
+
+- Taxing the industry: the &lt;r&gt;pigouvian taxes&lt;/r&gt;
+
+---
+
+# Environmental Policy: The Pigouvian Tax
+
+.pull-left[
+&lt;u&gt;Pigou's tax&lt;/u&gt;: force producers to &lt;r&gt;internalize the externality&lt;/r&gt; `\(MD\)`
+
+- How does that correct the inefficiency?
+
+- What is the &lt;r&gt;right tax&lt;/r&gt;?
+
+]
+.pull-right[
+&lt;img src="figs/fig_pol2.png" style="width: 100%" /&gt;
+]
+
+---
+
+# Environmental Policy: The Pigouvian Tax
+
+.pull-left[
+&lt;u&gt;Pigou's tax&lt;/u&gt;: force producers to &lt;r&gt;internalize the externality&lt;/r&gt; `\(MD\)`
+
+- How does that correct the inefficiency?
+
+- What is the &lt;r&gt;right tax&lt;/r&gt;?
+
+**Pigouvian tax** `\(= MD(Q^S)\)`
+- Marginal damages at social optimal quantitites
+
+]
+.pull-right[
+&lt;img src="figs/fig_pol3.png" style="width: 100%" /&gt;
+]
+
+---
+
+# Environmental Policy: The Pigouvian Tax
+
+.pull-left[
+&lt;u&gt;Example&lt;/u&gt;:
+
+- Demand: `\(Q=50-2P\)`
+- Supply: `\(Q=30+2P\)`
+- Negative Externality: `\(Q=10+P\)` (production)
+
+&lt;u&gt;Step 1&lt;/u&gt;: solve for `\((Q^U, P^U)\)`
+
+&lt;u&gt;Step 2&lt;/u&gt;: solve for `\((Q^S, P^S)\)`
+
+- `\(SMC=\)` supply + `\(MD\)`
+
+- &lt;r&gt;Represent&lt;/r&gt; demand/supply/
+damages &lt;r&gt;as `\(P\)`&lt;/r&gt; (not `\(Q\)`)
+
+&lt;u&gt;Step 3&lt;/u&gt;: use `\(Q^S \rightarrow\)` Pigou tax
+
+]
+.pull-right[
+&lt;img src="figs/fig_pol0.png" style="width: 100%" /&gt;
+]
+
+---
+
+# Environmental Policy: The Pigouvian Tax
+
+Pigou's theory has been a central (theoretical) piece of current environmental policies
+
+- `\(\text{CO}_2\)` taxes on international treaties, local gasoline taxes
+
+- Urban congestion taxes (restricted driving zones)
+
+- Compensation taxes on windmills
+
+- and [&lt;u&gt;others&lt;/u&gt;](https://youtu.be/SXAjk3lYNV0) ...!
+
+--
+
+Yet, direct intervention (taxes) by government: &lt;r&gt;distort&lt;/r&gt; the economy
+
+- Can the same be achieved without government intervention?
+
+- Ronald Coase's solution
+
+---
+class: inverse, center, middle
+count: false
+
+# The Coase Theorem
+
+---
+
+# Coase Theorem - Activity A
+
+.pull-left[
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BcGoPQe3-ls?si=eiegDNrkLikuMozj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
+]
+.pull-right[
+Watch the [&lt;u&gt;video&lt;/u&gt;](https://www.youtube.com/watch?v=r9Yaw9NwJ0k) and [&lt;u&gt;answer&lt;/u&gt;](https://www.dropbox.com/scl/fi/osis6j0gsga5hyqsui620/2025-04-EnvPol-TaskA.pdf?rlkey=3vy67xmy735xf2f4x755qbf9e&amp;st=45rjt6gt&amp;raw=1) `EnvPol-TaskA.pdf`
+]
+
+---
+
+# Environmental Policy: The Coase Theorem
+
+## Pigou versus Coase
+
+We have argued that efficient allocations are not achieved in the presence of externalities - Why?
+
+There are no markets through which the source of the externality must pay/be compensated for its effect on society
+- They're not priced
+
+There's a role for government &lt;r&gt;to create this market&lt;/r&gt; or price the externality
+
+---
+
+# Environmental Policy: The Coase Theorem
+
+If there are
+
+1. Neglegible transaction costs
+
+2. Well-defined and enforceable property rights
+
+3. No wealth effects on demand
+
+The Coase Theorem says that:
+
+&gt; *The most efficient or &lt;r&gt;optimal economic activity&lt;/r&gt; will occur regardless of who holds the property rights*
+
+How to interpret it in the &lt;r&gt;farmer-factory&lt;/r&gt; example?
+
+--
+
+&lt;r&gt;Other examples?&lt;/r&gt;
+
+---
+
+# Environmental Policy: The Coase Theorem
+
+## Coasean arguments
+
+- What is more valuable to society?
+
+  - The externality-producing good generated by the factory
+  
+  - Or the crops produced by the farmer?
+  
+--
+  
+Argument resonates better in the legal case considered by Coase
+
+- Pollution by industry and health effects
+
+- In that context, the victims are not "producting" anything
+
+---
+
+# Environmental Policy: The Coase Theorem
+
+The Coase Theorem has several limitations in practice
+
+- Bargaining costs are large
+
+- There are substantial information frictions in the economy
+
+- How to enforce property rights over intangible assets?
+
+--
+
+Yet, it &lt;r&gt;inspired many policies&lt;/r&gt; of nowadays
+
+- E.g., the EU Emissions Trading Scheme
+
+- Coase as "Economics of Vacuum" (why?)
+
+---
+
+# References
+
+- Keohane, N. O., &amp; Olmstead, S. M. (2016). *Markets and the Environment*. Island Press.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
